@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./1663056939240.jpg);
+}
+.first{
+    background-color: black;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+}
+.first h1{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: thistle;
+    font-size: 45px;
+
+}
+.home{
+   width: 100px;
+   height: 25px;
+   margin-left: 1000px;
+   margin-top: 25px;
+}
+.home a{
+   margin-top: 20px;
+   font-size: 25px;
+   text-decoration: none;
+   color: violet;
+
+   
+}
+.home a:hover{
+    color: teal;
+}
+.contact{
+    width: 100px;
+    height: 25px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.contact a{
+   margin-top: 20px;
+   font-size: 25px;
+   text-decoration: none;
+   color: violet;
+}
+.contact a:hover{
+    color: teal;
+}
+.doom{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+    color: tan;
+    color: steelblue;
+}
+.doom input{
+    font-size: 20px;
+    padding: 8px;
+    background-color: seashell;
+}
+.doom textarea{
+    width: 400px;
+    margin-top: 10px;
+}
+.doom button{
+    font-size: 20px;
+    background-color: aquamarine;
+    margin-top: 20px;
+    width: 100px;
+}
+.doom button:hover{
+    color: darkgoldenrod    ;
+}
+#fname{
+    width: 400px;
+}
+#lname{
+    width: 400px;
+}
+#dob{
+    width: 400px;
+    
+}

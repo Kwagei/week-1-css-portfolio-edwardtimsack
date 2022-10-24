@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+}
+.first{
+    background-color: black ;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+}
+.first h1{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: thistle;
+    font-size: 45px;
+}
+.home{
+    /* background-color: aqua; */
+    width: 100px;
+    height: 25px;
+    margin-left: 1000px;
+   margin-top: 25px;
+}
+.home a{
+    margin-top: 20px;
+    font-size: 25px;
+    text-decoration: none;
+}
+.home a:hover{
+    color: peru;
+}
+.contact{
+    /* background-color: blueviolet; */
+    width: 120px;
+    height: 25px;
+    margin-left: 200px;
+    margin-top: 25px;
+
+}
+.contact a{
+    margin-top: 20px;
+    font-size: 25px;
+    text-decoration: none;
+}
+.contact a:hover{
+    color: peru;
+}
+.role{
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding: 0 4px;
+    margin: 10pxx;
+    gap: 5px;
+}
+.cole img{
+    margin-top: 8px;
+    vertical-align: middle;
+}
+#tim{
+    width: 1000px;  
+    /* object-fit: contain; */
+}
+#tom{
+    width: 1000px;
+}
+#kim{
+    width: 1000px;
+}
+#sim{
+    width: 1000px;
+    /* height: 700px; */
+    /* object-fit: contain; */
+}

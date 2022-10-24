@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ background-color: aqua;
+ background-image: url(./Picture/1663057003863.jpg);
+}
+.main{
+   background-color: black;
+   display: flex;
+   width: 100vw;
+   height: 150px;
+}
+.Contact{
+    /* background-color: crimson; */
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 100px;
+
+}
+.Contact a{
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.Contact a:hover{
+    color: tomato;
+}
+.Gallery{
+    /* background-color: chartreuse; */
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 200px;
+    text-align: center;
+    
+}
+.Gallery a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.Gallery a:hover{
+    color: tomato;
+
+}
+img{
+    width: 500px;
+    height: 570px;
+    object-fit: contain;
+    margin-top: 10px;
+}
+.main h1{
+    color: white;
+    margin-top: 80px;
+    margin-left: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+p{
+    font-size: 20px;
+    margin-left: 10px;
+    color: peru;
+}
+.fav{
+    margin-left: 530px;
+    font-size: 20px;
+    color: peru;
+
+}
+.fav li{
+    font-size: 20px;
+}
+.cent{
+    display: flex;
+}
+.para{
+    /* margin-top: 25px; */
+    font-size: 50px;
+}
+.para p{
+    font-size: 30px;
+
+}
